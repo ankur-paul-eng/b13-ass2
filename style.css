@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+          margin: 0;
+          padding: 0;
+         box-sizing: border-box;
+         font-family: "Open Sans", sans-serif;
+
+}
+.main{
+          /*border: 2px solid rebeccapurple;
+          display: flex;
+          justify-content: space-between;
+         align-items:center;
+          padding: 0 60px;
+          height: 92px;
+          width: 100%;
+          background-color:#412567;
+          color: aliceblue;*/
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          background-color: #412567;
+          color:#FFFFFF ;
+          min-width: 1000px;
+}
+.About{
+         
+          display: flex;
+          gap: 32px;
+          font-weight:100;
+          font-size: 14px;
+          cursor: pointer;
+}
+.big{
+          font-size: 24px;
+          font-weight: bold;
+          
+}
+.man{
+                     background: linear-gradient(90deg, #ff00cc, #ffcc00);
+                               -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+}
+.btn {
+          cursor: pointer;
+          width: 134px;
+          height: 44px;
+          border: none;
+          border-radius: 22px;
+          font-weight: 600;
+          background: linear-gradient(90deg,
+          rgba(247, 233, 63, 1),
+           rgba(251, 9, 180, 1),
+           rgba(145, 0, 248, 1)) ;
+           color: #FFFFFF;
+
+}
+.btn:hover{
+          background: aqua;
+          
+}
+.sec{
+          
+          
+          height:600px;
+          width:100%;
+          background-image: url(./assets/hero-bg.png) ;
+          background-size:cover;
+          background-position: center;
+          background-repeat: no-repeat;
+
+}
+.banner{
+          color: white;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+         
+
+}
+.banner-contenar{
+          
+}
+.banner .round{
+          width: 250px;
+          height: auto;
+          display: flex;
+          margin-top: 70px ;
+          justify-content: center;
+          align-items: center;
+          
+
+}
+.banner .microphone{
+          width: 100px;
+          height: 100px;
+          position: relative;
+          left: 75px;
+          bottom: 180px;
+
+}
+.banner .banner-contenar>span{
+          background-color:#00FF88;
+          color: #1A0B2E ;
+          padding: 4px 10px;
+          border-radius: 40px;
+          font-size: 10px;
+          font-weight: 700;
+          display: inline-block;
+          position: relative;
+          bottom: 320px;
+          left: 75px;
+          
+}
+.Tech-contenar{
+          
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 120px;
+          position: relative;
+          top: -80px;
+          height: 200px;
+          width: 550px;
+
+}
+.Wave{
+          font-size: 60px;
+          font-weight: 700;
+          text-align: center;
+
+}
+.fixt{
+          font-size: 10px;
+          font-weight: 400;
+          
+          width:px;
+          color: #FFFFFF;
+         
+          position: relative;
+          
+          bottom: 80px;
+          font-family: initial;    
+}
+.Listen>button{
+          position: relative;
+          bottom: 50px;
+          gap: 8px ;
+}
+.sub{
+          background:none;
+          border: 2px solid#00FF88;
+          color: #00FF88;
+          cursor: pointer;
+          width: 134px;
+          height: 44px;
+          border-radius: 22px;
+          font-weight: 600;        
+}
+.sub:hover{
+          background: aqua ;
+          color: #FFFFFF;
+}
+.about-preant{
+          background-color: #1A0B2E;
+          color: #FFFFFF;
+        
+          max-width: 1200px;
+          min-height: 300px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+
+
+                
+}
+.about-preant>h3{
+          margin-top: 50px;
+          font-size: 48px;
+          font-weight: 600;
+}
+p{
+          /*margin-top: 16px;
+          font-size: 16px;
+          font-weight: 400px  ;
+          padding: 0 200px;*/
+          max-width: 800px;
+          margin: 0 auto;
+          text-align: center;
+          font-size: 16px;
+          line-height: 1.8;
+          color: rgb(255, 255, 255, 0.75);
+}
+.gap-line{
+          display: block;
+          margin-top: 24px;
+}
+.about-stats{
+          display: flex;
+          margin: 80px 300px;
+          border-top: 1px solid ;
+          padding-top: 80px;
+          gap: 80px ;
+          
+}
+.Monthly{
+          
+
+}
+h2{
+          font-size: 48px;
+          font-weight:800 ;
+          color:#00FF88;
+}
+.explore1>p{
+          white-space:nowrap;
+          text-align: center;
+
+}
+.explore>p{
+          white-space:nowrap;
+          text-align: center;
+
+}
+.explore2>p{
+          white-space:nowrap;
+          text-align: center;
+
+}
+
