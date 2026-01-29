@@ -32,9 +32,16 @@
           cursor: pointer;
 }
 .big{
-          font-size: 24px;
+          font-size: 50px;
           font-weight: bold;
+          height:100px ;
+          align-items: center;
+          padding-top: 15px;
           
+}
+.big>p{
+          font-size: 40px;
+       
 }
 .man{
                      background: linear-gradient(90deg, #ff00cc, #ffcc00);
@@ -62,7 +69,7 @@
 .sec{
           
           
-          height:600px;
+          height:1000px;
           width:100%;
           background-image: url(./assets/hero-bg.png) ;
           background-size:cover;
@@ -83,21 +90,22 @@
           
 }
 .banner .round{
-          width: 250px;
+          
+          width: 400px;
           height: auto;
           display: flex;
-          margin-top: 70px ;
+          margin-top: 150px ;
           justify-content: center;
           align-items: center;
           
 
 }
 .banner .microphone{
-          width: 100px;
-          height: 100px;
+          width: 170px;
+          height: 200px;
           position: relative;
-          left: 75px;
-          bottom: 180px;
+          left: 110px;
+          bottom: 300px;
 
 }
 .banner .banner-contenar>span{
@@ -105,12 +113,12 @@
           color: #1A0B2E ;
           padding: 4px 10px;
           border-radius: 40px;
-          font-size: 10px;
+          font-size: 25px;
           font-weight: 700;
           display: inline-block;
           position: relative;
-          bottom: 320px;
-          left: 75px;
+          bottom: 550px;
+          left: 120px;
           
 }
 .Tech-contenar{
@@ -121,7 +129,7 @@
           align-items: center;
           height: 120px;
           position: relative;
-          top: -80px;
+          top: -120px;
           height: 200px;
           width: 550px;
 
@@ -130,6 +138,7 @@
           font-size: 60px;
           font-weight: 700;
           text-align: center;
+
 
 }
 .fixt{
@@ -167,7 +176,7 @@
           background-color: #1A0B2E;
           color: #FFFFFF;
         
-          max-width: 1200px;
+          min-width:1600px ;
           min-height: 300px;
           margin: 0 auto;
           display: flex;
@@ -182,8 +191,9 @@
           margin-top: 50px;
           font-size: 48px;
           font-weight: 600;
+          margin-bottom: 30px;
 }
-p{
+.p{
           /*margin-top: 16px;
           font-size: 16px;
           font-weight: 400px  ;
@@ -231,4 +241,78 @@ h2{
           text-align: center;
 
 }
+/*TechWave*/
+.Choose-perant{
+          background-color: #2D1847;
+          color: #FFFFFF;
+          justify-content: center;
+          align-items: center;
+}
+.Choose-perant>h3{
+          display: flex;
+          justify-content: center;
+          padding-top: 120px;
+          font-size: 48px;
+          font-weight: 700;
+}/*
+.Premium-preant{
+          display: flex;
+          justify-content: ;
+}
+.Premium-preant {
+          max-width: 1000px;
+          margin: 50px auto;
+          height: auto;
+          display: grid;
 
+}*/
+
+.card{
+          /*max-width: 300px;
+          height: 300px;*/
+          line-height: 1.8;
+            box-shadow: 
+                     12px 1px rgba(0, 0, 0, 0.25),
+                     0 0 60px rgba(124, 58, 237, 0.35);
+                     
+
+          padding: 40px;
+          margin-bottom: 30px;
+          border-radius: 40px;
+
+}
+.titans{
+          font-size: 24px;
+          font-weight: 800;
+}
+.headphone>p{
+           color: rgb(255, 255, 255, 0.75);
+}
+
+.headphone{
+          grid-area: headphone;
+}
+.device{
+          grid-area: device;
+}
+.location{
+          grid-area: location;
+}
+.blut{
+          grid-area: blut;
+}
+.resource{
+          grid-area: resource;
+}
+.Premium-preant {
+          max-width: 1000px;
+          margin: 50px auto;
+          height: auto;
+          display: grid;
+          gap: 30px ;
+          grid-template-areas: 
+          "headphone device device"
+          "headphone location location "
+          "blut blut resource"
+
+}
