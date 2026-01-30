@@ -176,7 +176,7 @@
           background-color: #1A0B2E;
           color: #FFFFFF;
         
-          min-width:1600px ;
+          min-width:1200px ;
           min-height: 300px;
           margin: 0 auto;
           display: flex;
@@ -192,6 +192,7 @@
           font-size: 48px;
           font-weight: 600;
           margin-bottom: 30px;
+          
 }
 .p{
           /*margin-top: 16px;
@@ -247,8 +248,9 @@ h2{
           color: #FFFFFF;
           justify-content: center;
           align-items: center;
+          
 }
-.Choose-perant>h3{
+.hero{
           display: flex;
           justify-content: center;
           padding-top: 120px;
@@ -279,6 +281,7 @@ h2{
           padding: 40px;
           margin-bottom: 30px;
           border-radius: 40px;
+          /*cursor: pointer;*/
 
 }
 .titans{
@@ -308,11 +311,75 @@ h2{
           max-width: 1000px;
           margin: 50px auto;
           height: auto;
+          padding-bottom: 100px;
           display: grid;
           gap: 30px ;
           grid-template-areas: 
           "headphone device device"
           "headphone location location "
           "blut blut resource"
+}
+.Featured{
+          background-color: #1A0B2E;
+          color: #FFFFFF;
+          margin-top: -100px;
+          height: 1300px;
+          
+}
+.all-parent{
+          max-width: 1200px;
+          margin: 0 auto;
+          /*
+          border: 2px solid red;
+          width: ;
+          display: flex;
+          justify-content: center;
+          align-items: center;*/ 
+          padding: 10px 50px 10px 0px;
+
+          display: grid;
+          grid-template-columns: repeat(3,1fr);
+          gap: 30px ;
 
 }
+.Episodes{
+          padding-top: 80px;
+         padding-bottom: 50px;
+}
+iframe{
+          cursor: pointer;
+}
+.Kumar{
+          max-width: 1200px;
+          margin: 40px auto;
+         display: flex;
+         gap: 30px ;
+         justify-content: center;
+         align-items: center;
+         margin-bottom: 100px;
+
+}  
+.Alex>h3{
+          font-size: 32px;
+          font-weight: 700px  ;
+}
+.Alex>p{
+          font-size: 16px;
+          line-height: 1.8;
+          color: rgb(255, 255, 255, 0.75);
+}
+
+ .png{
+          border:1px solid ;
+          padding: 10px;
+           
+
+          color: #533C72;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+ }  
+ .x{
+          gap: 15px;
+ }
+
