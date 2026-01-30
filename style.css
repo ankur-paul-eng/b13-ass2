@@ -382,4 +382,50 @@ iframe{
  .x{
           gap: 15px;
  }
+ .foot{
+          min-width: 1200px;
+          height: 450px;
+          background-image: url(./assets/footer-bg.png);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
 
+ }
+.spotify {
+          color: #FFFFFF;
+          width: 600px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          padding-left: 50px;
+          gap: 80px;
+          
+          
+}
+.t{
+          color: #FFFFFF;
+
+}
+
+.www{
+          font-size: 80px;
+          font-weight: 900;
+          padding-top: 50px;
+          padding-bottom: 20px;
+
+
+}
+.foot>p{
+          font-size: 16px;
+          line-height: 1.8;
+          color: rgb(255, 255, 255, 0.75);
+
+}
+
+@media screen and (max-width:575px) {
+          .About{
+                    display: none;
+          }
+          
+}
