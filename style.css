@@ -23,6 +23,9 @@
           color:#FFFFFF ;
           min-width: 1000px;
 }
+.aaa{
+          display: none;
+}
 .About{
          
           display: flex;
@@ -69,7 +72,7 @@
 .sec{
           
           
-          height:1000px;
+          height:100vh;
           width:100%;
           background-image: url(./assets/hero-bg.png) ;
           background-size:cover;
@@ -383,13 +386,18 @@ iframe{
           gap: 15px;
  }
  .foot{
-          min-width: 1200px;
+          width: 100%;
+          min-width: unset;
+
           height: 450px;
           background-image: url(./assets/footer-bg.png);
           display: flex;
           justify-content: center;
           align-items: center;
           flex-direction: column;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
 
  }
 .spotify {
@@ -422,10 +430,253 @@ iframe{
           color: rgb(255, 255, 255, 0.75);
 
 }
-
+.non{
+  display:none ;
+}
 @media screen and (max-width:575px) {
+
+
+
+         .main{
+          min-width: 100%;
+          justify-content: space-between;
+          padding: 0 15px;
+         }
           .About{
                     display: none;
           }
+          .main>.btn{
+            display: none;
+          }
+           .non{
+            display: inline;
+            display: block;
+            width: 30px;
+            cursor: pointer;
+              }
+            .sec{
+            background-image: url("./assets/back.png");
+             background-size: cover;
+            background-position: center;
+             background-repeat: no-repeat;
+            height: 100vh;
+            width: 100%;
+            /*align-items: center;*/
+            align-items: center;
+            
+
+            }
+
+           .banner .round{
+            width: 250px;
+            margin-top: px;
+           }
+           .banner .microphone{
+            width: 120px;
+            height: 120px;
+            left: 65px;
+            bottom: 190px;
+           }
+          .banner .banner-contenar>span{
+            font-size: 16px;
+            bottom: 330px;
+            left: 65px;
+
+           } 
+          .Tech-contenar{
+            width: 100%;
+            padding: 0 15px;
+            top: -80px;
+            align-items: center;
+            margin-top: 50px;
+          }
+          .Wave{
+            font-size: 36px;
+          }
           
+          .fixt{
+           font-size: 14px;
+             bottom: 30px;
+           color: rgb(255, 255, 255, 0.75);
+
+          }
+           .Listen{
+            gap: 40px ;
+            margin-top: 50px;
+            align-items: center;
+            margin-left: 50px;
+           }
+           .sub{
+            margin-top: 30px;
+           }
+            .about-preant,.hero,.Episodes{
+            min-width: 100%;
+            width: 100% ;
+             padding: 2px 20px;
+            text-align: center;
+            }
+            .hero{
+              padding-top: 50px;
+            }
+
+           .about-stats{
+            display: grid;
+              grid-template-areas: 
+              "Monthly explore "
+              "explore1    explore2"
+           }
+           .Premium-preant{
+            padding: 16px 30px;
+            padding-bottom: 50px;
+            grid-template-areas: 
+            "headphone"
+            "device"
+            "location"
+            "blut"
+            "resource"
+           }
+           .all-parent{
+            grid-template-columns: repeat(1,1fr);
+            padding: 50px;
+           }
+           .Featured{
+            height: auto;
+            padding-bottom: 200px;
+           }
+
+           
+           .Kumar{
+            flex-direction: column;
+           text-align: center;
+           }
+           .add{
+            padding: 50px;
+           }
+           
+  
+            .foot{
+             background-image: url("./assets/Image.png");
+             background-size: cover;
+            background-position: center;
+             background-repeat: no-repeat;
+            padding: 0px 20px;
+            height: 100%;
+            width: 100%;
+            gap: px;
+            /*align-items: center;*/
+            align-items: center;
+            
+            
+             }
+
+           .www{
+              font-size: 36px;
+               margin-bottom: 0px;
+                padding-top: 20px;
+              }
+
+             .spotify{
+                display: grid;
+               grid-template-columns: repeat(2,2fr);
+               gap: 30px;
+              /* border: 10px solid red;*/
+               width: 100%;
+               margin:  0;
+                padding: 0;
+                }
+
+               .spotify > div{
+               display: flex;
+               align-items: center;
+              justify-content: center;
+               gap: 1px;
+             }
+
+              .spotify img{
+                width: 22px;
+              height: 22px;
+              }
+
+              .spotify span{
+                  font-size: 15px;
+                color: rgba(255,255,255,0.85);
+              }
+
+               .foot > p{
+                font-size: 14px;
+                margin-top: 0px;
+                color: rgba(255,255,255,0.75);
+                padding-bottom: 50px;
+              }
+
+           /*
+           .foot{
+            padding: 40px 16px;
+            height: auto;
+            text-align: center;
+            background-size: cover;
+            background-position: center;
+           }
+          .spotify{
+            
+            grid-template-columns: repeat(2,1fr);
+            gap: 0 ;
+            place-items: center;
+            width: 100%;
+            padding-left: 0;
+
+
+
+          }
+          .www{
+            font-size: 32px;
+          }
+
+
+/*
+  .about-stats{
+    margin: 40px 0;
+    gap: 25px;
+  }
+         /*  .about-preant{
+            min-height: 100%;
+            width: 100%;
+            padding: 40px 15px ;
+
+           }
+           .about-preant>h3{
+            font-size: 32px;
+            text-align: center;
+           }
+           .about-stats{
+            flex-direction: column;
+            margin: 40px 0;
+            gap: 30px ;
+            text-align: center;
+           }
+           
+
+          /*
+          .main
+          .big{
+                     display: flex;
+                     justify-content:space-between;
+                     align-items: center;
+                     gap: 80px;
+                     margin-left: 10px;
+                     
+          }
+          .aaa{
+                    margin-bottom: 10px;
+                    display: inline;
+              }
+          .banner{
+            height: 100%;
+            
+          }   
+          .card{
+            display: grid;
+            grid-template-columns: repeat(1 , 1fr);
+          }*/
+
 }
