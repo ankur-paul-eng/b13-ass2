@@ -498,9 +498,7 @@ iframe{
           display: grid;
           grid-template-columns: repeat(4,1fr);
           padding-left: 50px;
-          gap: 80px;
-          
-          
+          gap: 80px;       
 }
 .t{
           color: #FFFFFF;
@@ -546,11 +544,12 @@ iframe{
             cursor: pointer;
               }
             .sec{
-            background-image: url("./assets/back.png");
+            background-image: url("./assets/Image (2).png");
              background-size: cover;
             background-position: center;
              background-repeat: no-repeat;
-            height: 100vh;
+           /* height: 100%;*/
+           min-height: 100vh;
             width: 100%;
             /*align-items: center;*/
             align-items: center;
@@ -559,19 +558,19 @@ iframe{
             }
 
            .banner .round{
-            width: 250px;
-            margin-top: px;
+            width: 200px;
+            margin-top: 130px;
            }
            .banner .microphone{
-            width: 120px;
-            height: 120px;
-            left: 65px;
-            bottom: 190px;
+            width: 90px;
+            height: 90px;
+            left: 55px;
+            bottom: 150px;
            }
           .banner .banner-contenar>span{
             font-size: 16px;
-            bottom: 330px;
-            left: 65px;
+            bottom: 270px;
+            left: 40px;
 
            } 
           .Tech-contenar{
@@ -596,7 +595,7 @@ iframe{
             margin-top: 50px;
             align-items: center;
             flex-direction: column;
-            margin-left: 50px;
+            /*margin-left: 50px;*/
            }
            .sub{
             margin-top: 30px;
